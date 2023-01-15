@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+
+<head>
+  <meta charset="utf-8">
+  <title>Suggest a Boook</title>
+  <link rel="stylesheet" href="test.css">
+  <link rel="stylesheet" href="css/pages.css">
+  <link rel="apple-touch-icon" sizes="180x180" href="images/apple-touch-icon.png">
+  <link rel="icon" type="image/png" sizes="32x32" href="images/favicon-32x32.png">
+  <link rel="icon" type="image/png" sizes="16x16" href="images/favicon-16x16.png">
+  <link rel="manifest" href="images/site.webmanifest">
+</head>
+
+<body>
+  <form id="form">
+    <div class="form-control">
+      <label for="name" id="label-name">
+        Book title:
+      </label>
+
+      <!-- Input Type Text -->
+      <input type="text" id="name" placeholder="Enter the title of the book" />
+    </div>
+
+    <div class="form-control">
+      <label for="email" id="label-email">
+        Author:
+      </label>
+
+      <input type="text" id="email" placeholder="Enter the author who wrote the book" />
+    </div>
+
+    <div class="form-control">
+      <label for="role" id="label-role">
+        Which option best describes your book?
+      </label>
+
+      <!-- Dropdown options -->
+      <select name="role" id="role">
+        <option value="none">None</option>
+        <option value="student">Middle Grade</option>
+        <option value="intern">Young Adult</option>
+        <option value="professional">New Adult/Adult</option>
+        <option value="other">Other</option>
+      </select>
+    </div>
+
+    <div class="form-control">
+      <label>Genres
+        <small>(Check all that apply)</small>
+      </label>
+      <!-- Input Type Checkbox -->
+      <label for="inp-1">
+        <input type="checkbox" name="inp">Fantasy</input></label>
+      <label for="inp-2">
+        <input type="checkbox" name="inp">Fiction</input></label>
+      <label for="inp-3">
+        <input type="checkbox" name="inp">Historical Fiction</input></label>
+      <label for="inp-4">
+        <input type="checkbox" name="inp">Urban Fantasy</input></label>
+      <label for="inp-7">
+        <input type="checkbox" name="inp">Romance</input></label>
+      <label for="inp-5">
+        <input type="checkbox" name="inp">Memior/Autobiography/Biography</input></label>
+      <label for="inp-6">
+        <input type="checkbox" name="inp">Nonfiction</input></label>
+      <label for="inp-7">
+        <input type="checkbox" name="inp">Mystery/Horror</input></label>
+      <label for="inp-7">
+        <input type="checkbox" name="inp">Science Fiction</input></label>
+      <label for="inp-7">
+        <input type="checkbox" name="inp">Dystopian</input></label>
+      <label for="inp-7">
+        <input type="checkbox" name="inp">Mythology</input></label>
+    </div>
+
+    <div class="form-control">
+      <label for="comment">
+        Any additional information you would like us to know:
+      </label>
+
+      <!-- multi-line text input control -->
+      <textarea name="comment" id="comment" placeholder="Enter your comment here">
+                </textarea>
+    </div>
+
+    <!-- Multi-line Text Input Control -->
+    <button type="submit" value="submit">
+      Submit
+    </button>
+  </form>
+</body>
+
+</html>
